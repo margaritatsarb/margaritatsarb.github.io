@@ -1,9 +1,9 @@
 {
-  "name": "devfolio",
+  "name": "margaritatsarb",
   "version": "1.5.0",
   "description": "A simple, responsive, single-page portfolio and resume for developers built with Bulma, Sass, Font Awesome and Flickity.",
   "main": "webpack.config.js",
-  "repository": "https://github.com/mmacneil/devfolio",
+  "repository": "https://github.com/margaritatsarb",
   "author": "Mark Macneil",
   "license": "MIT",
   "scripts": {
