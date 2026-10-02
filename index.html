@@ -50,9 +50,7 @@
     <div class="container">
       <h1 class="title">About Me</h1>
       <hr />
-      <p>I am a Software Engineer based in Madrid, Spain, with a strong focus on distributed systems 
-        and cloud computing. I have extensive experience working with Apache Spark, Kubernetes, 
-        and Docker, and am passionate about building scalable, high-performance applications.</p>
+      <p>I am a Software Engineer at Amazon in Madrid, Spain, where I lead the design and delivery of customer-facing features across web and mobile. My background is in distributed systems and cloud computing, and I enjoy building scalable systems, improving developer productivity and turning ideas into products, most recently as co-founder of <a href="https://www.marivault.com/" target="_blank">Marivault</a>.</p>
     </div>
   </section>
   <section class="section">
@@ -73,26 +71,30 @@
           <p class="subtitle is-6">Software Development Engineer</p>
         </div>
         <div style="text-align: right;">
-          <time datetime="2025-01">Jan 2025</time> - <time datetime="2025-09">Today</time>
+          <time datetime="2025-01">Jan 2025</time> - Present
         </div>
       </div>
     </div>
     <div class="content">
       <ul>
-        <li>Share Cart: Leading next-generation Share Cart feature development across 2 different workspaces, trusted with ownership beyond current level. Coordinating cross-team integration for customization items. Delivered v2 two weeks ahead of schedule.</li>
-        <li>Bulk Buying Quote: Redesigned pop-up and banner system for low-stock inventory, implementing IMB functionality across multiple customer touchpoints. Conducted away-team work in CQE workspace.</li>
-        <li>AB Lists Sidebar Redesign: Owned end-to-end implementation of dynamic sidebar interface, eliminating page refresh requirements that affected 33% of customers during list-hopping. Resolved 10+ unforeseen technical challenges.</li>
-        <li>JDK 17 Migration: Led critical upgrade from JDK 8 to JDK 17 across 18 packages to ensure compatibility, performance improvements, and long-term maintainability. Performed necessary JUnit5, EasyMock and PowerMock migrations.</li>
-        <li>Operational Excellence: Performing on-call shifts every 5 weeks. Onboarded team pipeline to Dynamic Acceleration achieving 23% faster deployments.</li>
+        <li>Led the technical design and implementation to extend Share Cart, Amazon Business's cart-sharing feature, to mobile for Business and Retail customers, writing 5 design docs, aligning 4 teams on the architecture and directing 2 engineers.</li>
+        <li>Removed a race condition and workflow overhead for most share requests by designing a sync/async routing strategy based on cart-size data.</li>
+        <li>Drove Share Cart v2 from implementation to worldwide launch as project lead, delivering double-digit growth in weekly Share Cart sales and units per user.</li>
+        <li>Expanded Share Cart to procurement-system customers in the EU and North America and launched it in Australia, shipping 4 receiver-page improvements to 100% of customers worldwide.</li>
+        <li>Mapped 21 Group Orders requirements against the Lists platform in a code-level investigation that guided senior engineers and product in sizing the build-vs-reuse decision.</li>
+        <li>Cut end-to-end test pipeline time by ~43 minutes per deployment (up to 54% per stage) by analyzing test coverage and consolidating redundant suites.</li>
+        <li>Led the JDK 8&rarr;17 migration of 18 Java packages, rewriting 90+ tests by hand where automated tools failed, and added build-time dependency validation to catch conflicts before production.</li>
+        <li>Hardened a high-traffic lists service against cascading failures after a production incident, replacing a retry fallback that multiplied downstream load with error-aware gating.</li>
+        <li>Built a proof of concept for LLM-driven UI testing on AWS Bedrock after finding that 30% of recent test commits were maintenance-only, and created AI agents for code review, test writing and onboarding that teammates now use.</li>
       </ul>
       <div class="tags">
         <span class="tag">Java</span>
-        <span class="tag">Javascript</span>
-        <span class="tag">Jsp</span>
-        <span class="tag">Full Stack</span>
+        <span class="tag">TypeScript</span>
+        <span class="tag">React</span>
         <span class="tag">AWS</span>
-        <span class="tag">Typescript</span>
-        <span class="tag">React</span></span>
+        <span class="tag">System Design</span>
+        <span class="tag">Mobile</span>
+        <span class="tag">LLM Agents</span>
       </div>
     </div>
   </div>
@@ -111,16 +113,15 @@
                 <p class="subtitle is-6">Software Engineer</p>
               </div>
               <div style="text-align: right;">
-                <time datetime="2023-3">March 2023</time> - <time datetime="2019-9">December 2024</time>
+                <time datetime="2023-3">March 2023</time> - <time datetime="2024-12">December 2024</time>
               </div>
             </div>
           </div>
           <div class="content">
             <ul>
-              <li>Managed the development of distributed environments using Apache Spark and Kubernetes, while collaborating with international teams on EU-funded projects (CONDUCTOR and FRONTIER).</li>
-              <li>Developing anomaly detection models for the CONDUCTOR EU project to improve system performance and predictive capabilities.</li>
-              <li>Leading the development of a Flutter application for the SOTERIA EU project</li>
-              <li>Led the implementation of a Flutter application for incident detection for the FRONTIER EU project, working closely with product managers, data scientists, and engineers to ensure its successful deployment.</li>
+              <li>Built distributed data-processing environments on Apache Spark and Kubernetes for 2 EU-funded research projects (CONDUCTOR, FRONTIER), working with international partner teams.</li>
+              <li>Developed anomaly-detection models for CONDUCTOR to flag irregular patterns in system data, supporting predictive maintenance.</li>
+              <li>Led development of 2 Flutter apps (SOTERIA, and FRONTIER incident detection) from design through deployment, working with product managers, data scientists and engineers.</li>
             </ul>
             <div class="tags">
               <span class="tag">Apache Spark</span>
@@ -178,7 +179,7 @@
           <div class="content" style="display: flex; justify-content: space-between; align-items: center;">
             <div>
               <p class="title is-4"> Master of Engineering: Electrical and Computer Engineering</p>
-              <p class="subtitle is-6">National and Technical University of Athens</p>
+              <p class="subtitle is-6">National Technical University of Athens</p>
             </div>
             <div style="text-align: right;">
               <time datetime="2018-10">October 2018</time>
@@ -262,7 +263,7 @@
   <div class="container">
     <h1 class="title">Languages</h1>
     <hr />
-    <p>Fluent in English; Knowledge of French; Knowledge of Spanish</p>
+    <p>Native in Greek; Fluent in English; Knowledge of French; Knowledge of Spanish</p>
   </div>
 </section>
   
@@ -271,25 +272,29 @@
     <h1 class="title">Skills</h1>
     <hr />
     <div class="tags are-medium">
-      <span class="tag">AWS</span>
-      <span class="tag">PostgreSQL</span>
       <span class="tag">Java</span>
-      <span class="tag">Javascript</span>
-      <span class="tag">Typescript</span>
+      <span class="tag">JavaScript</span>
+      <span class="tag">TypeScript</span>
+      <span class="tag">Python</span>
+      <span class="tag">C/C++</span>
+      <span class="tag">SQL</span>
       <span class="tag">React</span>
       <span class="tag">Node.js</span>
-      <span class="tag">Jsp</span>
-      <span class="tag">Python</span>
-      <span class="tag">C++/C</span>
-      <span class="tag">Distributed Systems</span>
-      <span class="tag">Apache Spark</span>
+      <span class="tag">Express</span>
+      <span class="tag">Flutter</span>
+      <span class="tag">AWS (Bedrock, IAM, Step Functions)</span>
       <span class="tag">Kubernetes</span>
       <span class="tag">Docker</span>
+      <span class="tag">Apache Spark</span>
+      <span class="tag">PostgreSQL</span>
+      <span class="tag">Prisma</span>
+      <span class="tag">JUnit</span>
+      <span class="tag">Selenium</span>
+      <span class="tag">CI/CD</span>
+      <span class="tag">System Design</span>
+      <span class="tag">Distributed Systems</span>
+      <span class="tag">LLM Agents</span>
       <span class="tag">Machine Learning</span>
-      <span class="tag">Neural Networks</span>
-      <span class="tag">Flutter</span>
-      <span class="tag">Agile</span>
-      <span class="tag">SQL</span>
     </div>
   </div>
 </section>
@@ -298,6 +303,35 @@
     <div class="container">
       <h1 class="title">Projects</h1>
       <hr />
+      <div class="card" style="margin-bottom: 1.5rem;">
+        <div class="card-content">
+          <div class="media-content" style="display: flex; justify-content: space-between; align-items: center;">
+            <div>
+              <p class="title is-4"><a href="https://www.marivault.com/" target="_blank">Marivault</a></p>
+              <p class="subtitle is-6">Co-founder &amp; Software Engineer</p>
+            </div>
+            <div style="text-align: right;">
+              <time datetime="2026-03">March 2026</time> - Present
+            </div>
+          </div>
+          <div class="content" style="margin-top: 1rem;">
+            <ul>
+              <li>Co-built a maritime terminology and learning platform with 2,900+ terms, interactive 3D vessel diagrams and quizzes, with another software engineer and a naval engineer leading domain content.</li>
+              <li>Built the full-stack foundation (React, TypeScript, Express, Prisma, PostgreSQL), moving all static content into a database-backed API.</li>
+              <li>Set up production infrastructure on Railway (dev/prod environments, custom domains, auto-deploy, Sentry monitoring) and secure authentication with JWT, Google OAuth, email verification and rate limiting.</li>
+            </ul>
+            <div class="tags">
+              <span class="tag">React</span>
+              <span class="tag">TypeScript</span>
+              <span class="tag">Express</span>
+              <span class="tag">Prisma</span>
+              <span class="tag">PostgreSQL</span>
+              <span class="tag">Three.js</span>
+              <span class="tag">Railway</span>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="tile is-ancestor">
         <div class="tile is-vertical is-12">
           <div class="tile">
